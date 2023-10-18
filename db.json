@@ -1,0 +1,130 @@
+{
+  "Items": [
+    {
+      "Id" : 1,
+      "name" : "Christmas Lights",
+      "holiday" : "Christmas",
+      "price" : "23.99",
+      "image" : "https://m.media-amazon.com/images/I/617WO0croJL._AC_.jpg"
+    },
+    {
+      "Id" : 2,
+      "name" : "Christmas Sweater",
+      "holiday" : "Christmas",
+      "price" : "18.99",
+      "image" : "https://kieljamespatrick.com/cdn/shop/products/TheGreatAdventureSweatercopy_800x.png?v=1667407979"
+    },
+    {
+      "Id" : 3,
+      "name" : "Christmas Hats",
+      "holiday" : "Christmas",
+      "price" : "12.99",
+      "image" : "https://m.media-amazon.com/images/I/51Gb8GLccNL._AC_UY1000_.jpg"
+    },
+    {
+      "Id" : 4,
+      "name" : "Christmas Tree",
+      "holiday" : "Christmas",
+      "price" : "89.99",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/d/d5/A1_Christmas_Tree_photo.jpg"
+    },
+    {
+      "Id" : 5,
+      "name" : "Christmas Stockings",
+      "holiday" : "Christmas",
+      "price" : "14.99",
+      "image" : "https://cimages.personalcreations.com/is/image/planetartdmc/PCR20_11G242X_ENVIRO_CP_SQ?$PCRProductImage$&wid=534&hei=534"
+    },
+    {
+      "Id" : 6,
+      "name" : "Christmas Garland",
+      "holiday" : "Christmas",
+      "price" : "7.99",
+      "image" : "https://m.media-amazon.com/images/I/9143OigHDhL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "Id" : 7,
+      "name" : "Halloween Basket",
+      "holiday" : "Halloween",
+      "price" : "9.99",
+      "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLSQEUd-1q-PIB10zkBvr1HoLKk1n06IAcgQ&usqp=CAU"
+    },
+    {
+      "Id" : 8,
+      "name" : "Halloween Candy",
+      "holiday" : "Halloween",
+      "price" : "15.99",
+      "image" : "https://scene7.samsclub.com/is/image/samsclub/0004000053041_A"
+    },
+    {
+      "Id" : 9,
+      "name" : "Halloween Lights",
+      "holiday" : "Halloween",
+      "price" : "19.99",
+      "image" : "https://www.newage-us.com/wp-content/uploads/2022/09/HALLOW1-2.jpg"
+    },
+    {
+      "Id" : 10,
+      "name" : "Halloween Hanging Decorations",
+      "holiday" : "Halloween",
+      "price" : "19.99",
+      "image" : "https://m.media-amazon.com/images/I/71LW+qiPt2L.jpg"
+    },
+    {
+      "Id" : 11,
+      "name" : "Halloween Weapons",
+      "holiday" : "Halloween",
+      "price" : "9.99",
+      "image" : "https://m.media-amazon.com/images/I/811HsMFH1OL.jpg"
+    },
+    {
+      "Id" : 12,
+      "name" : "Halloween Makeup Kit",
+      "holiday" : "Halloween",
+      "price" : "12.99",
+      "image" : "https://m.media-amazon.com/images/I/911T+q2USyL.jpg"
+    },
+    {
+      "Id" : 13,
+      "name" : "Thanksgiving Garland",
+      "holiday" : "Thanksgiving",
+      "price" : "7.99",
+      "image" : "https://i.pinimg.com/originals/e3/42/af/e342af56ddbbd85efc77b09a89a15771.png"
+    },
+    {
+      "Id" : 14,
+      "name" : "Thanksgiving Wreath",
+      "holiday" : "Thanksgiving",
+      "price" : "14.99",
+      "image" : "https://i.etsystatic.com/7787677/r/il/d8bca4/2642819689/il_fullxfull.2642819689_bwq6.jpg"
+    },
+    {
+      "Id" : 15,
+      "name" : "Thanksgiving Plates",
+      "holiday" : "Thanksgiving",
+      "price" : "4.99",
+      "image" : "https://target.scene7.com/is/image/Target/GUEST_f6ae08ce-9858-4706-afd4-8edaeac33865?wid=1200&hei=1200&qlt=80&fmt=webp"
+    },
+    {
+      "Id" : 16,
+      "name" : "Thanksgiving Napkins",
+      "holiday" : "Thanksgiving",
+      "price" : "6.99",
+      "image" : "https://m.media-amazon.com/images/I/71q1Ve3Yn4L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "Id" : 17,
+      "name" : "Thanksgiving Banner",
+      "holiday" : "Thanksgiving",
+      "price" : "8.99",
+      "image" : "https://m.media-amazon.com/images/I/41tgmEY5CML._AC_.jpg"
+    },
+    {
+      "Id" : 18,
+      "name" : "Thanksgiving Doormat",
+      "holiday" : "Thanksgiving",
+      "price" : "11.99",
+      "image" : "https://m.media-amazon.com/images/I/81DpPAlIlvL._AC_UF894,1000_QL80_.jpg"
+    }    
+  ]
+}
