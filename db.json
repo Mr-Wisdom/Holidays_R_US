@@ -125,27 +125,6 @@
       "holiday": "Thanksgiving",
       "price": "11.99",
       "image": "https://m.media-amazon.com/images/I/81DpPAlIlvL._AC_UF894,1000_QL80_.jpg"
-    },
-    {
-      "name": "Meow",
-      "image": "https://pbs.twimg.com/media/Fu-qmEUWcAQ2W3q.jpg",
-      "price": "90",
-      "holiday": "Thanksgiving",
-      "id": 19
-    },
-    {
-      "name": "Meow",
-      "image": "https://pbs.twimg.com/media/Fu-qmEUWcAQ2W3q.jpg",
-      "price": "68",
-      "holiday": "Halloween",
-      "id": 20
-    },
-    {
-      "name": "Meow",
-      "image": "https://pbs.twimg.com/media/Fu-qmEUWcAQ2W3q.jpg",
-      "price": "69",
-      "holiday": "Halloween",
-      "id": 21
     }
   ]
 }
