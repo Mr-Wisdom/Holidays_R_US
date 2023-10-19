@@ -3,7 +3,7 @@ import React ,{useState}from "react";
 function Form({onNewItem}) {
     const [name , setName] = useState("")
     const [image , setImage] = useState("")
-    const [price ,Setprice] = useState(0)
+    const [price ,Setprice] = useState("")
     const [holiday,setHoliday] = useState("")
 
     function handleHolidayChange(event){
@@ -24,11 +24,14 @@ function Form({onNewItem}) {
     }
     function handleSubmit(event){
      event.preventDefault()
+     const firstletterHoliday = holiday.charAt(0)
+     const upperCaseFirst = firstletterHoliday.toUpperCase()
+     const restOfWord = holiday.substring(1).toLowerCase()
      const newItem ={
         name:name ,
         image:image,
         price:price,
-        holiday:holiday
+        holiday:upperCaseFirst+restOfWord
      }
 
      fetch("http://localhost:3010/Items",{
@@ -47,7 +50,7 @@ function Form({onNewItem}) {
         onNewItem(data)
        setName("")
        setImage("")
-       Setprice(0)
+       Setprice("")
      } )
      
 
@@ -55,12 +58,12 @@ function Form({onNewItem}) {
 
   return (
     <div  onSubmit={handleSubmit} className="new-item-form">
-      <h2>New Item</h2>
+      <h2>Submit a New Item!</h2>
       <form>
-        <input type="text" name="name" placeholder="name" value={name} onChange={handleNameChange}/>
+        <input type="text" name="name" placeholder="Item Name" value={name} onChange={handleNameChange}/>
         <input type="text" name="image" placeholder="Image URL" value={image} onChange={handleImageChange} />
-        <input type="number" name="price" step="0.01" placeholder="Price" value={price} onChange={handlePriceChange} />
-        <input type="text" name="holiday" placeholder="holiday" value={holiday} onChange={handleHolidayChange}/>
+        <input type="number" name="price" placeholder="Price" value={price} onChange={handlePriceChange} />
+        <input type="text" name="holiday" placeholder="holiday (Christmas, Halloween, or Thanksgiving?)" value={holiday} onChange={handleHolidayChange}/>
         <button type="submit">Add Item</button>
       </form>
     </div>
