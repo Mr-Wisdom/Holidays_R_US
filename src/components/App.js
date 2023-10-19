@@ -1,6 +1,7 @@
 import React, {useState,useEffect} from "react"
 import CardContainer from "./CardContainer"
 import Header from "./Header"
+import { Outlet } from "react-router-dom"
 import Form from "./Form"
 
 
@@ -23,13 +24,19 @@ setItems((currentItems) => [...currentItems,newItem])
 
 
 
+ const context = {
+  items,
+
+ }
+
+
   return (
     <div className = "app">
       <Form onNewItem={onNewItem}/>
       <Header  />
-      <CardContainer  items = {items}/>
+      {/* <CardContainer  items = {items}/> */}
       
-
+      <Outlet context={context} />
     </div>
 
   )

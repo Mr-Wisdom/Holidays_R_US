@@ -31,12 +31,12 @@ function Form({onNewItem}) {
         holiday:holiday
      }
 
-     fetch("http://localhost:3000",{
+     fetch("http://localhost:3010/Items",{
         method : 'POST',
         headers: {
             "Content-Type" : "application/json"
         },
-        body:JSON.springify(newItem)
+        body:JSON.stringify(newItem)
      })
      .then((resp)=>{
         if(resp.ok){
