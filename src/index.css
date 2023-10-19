@@ -26,12 +26,23 @@
   font-size: large;
   font-weight: bold;
   margin-top : 2%;
+  text-align: center;
 }
 .card-image {
   max-width: 100%;
   height: auto;
   margin-top: 20px;
   border-radius: 10px;
+}
+.card-price {
+  text-align: center;
+}
+.card-holiday {
+  text-align: center;
+  vertical-align: bottom;
+  margin-bottom: 10px;
+  opacity: .5;
+  color: grey;
 }
 .items {
   display : flex;
