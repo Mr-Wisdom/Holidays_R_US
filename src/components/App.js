@@ -1,6 +1,7 @@
 import React, {useState,useEffect} from "react"
 import CardContainer from "./CardContainer"
 import Header from "./Header"
+import Form from "./Form"
 
 
 function App () {
@@ -16,10 +17,15 @@ function App () {
 
   useEffect(getItems, [])
 
+  function onNewItem(newItem) {
+setItems((currentItems) => [...currentItems,newItem])
+  }
+
 
 
   return (
     <div className = "app">
+      <Form onNewItem={onNewItem}/>
       <Header  />
       <CardContainer  items = {items}/>
       
