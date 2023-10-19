@@ -1,6 +1,7 @@
 import React, {useState,useEffect} from "react"
 import CardContainer from "./CardContainer"
 import Header from "./Header"
+import { Outlet } from "react-router-dom"
 
 
 function App () {
@@ -18,12 +19,18 @@ function App () {
 
 
 
+ const context = {
+  items,
+
+ }
+
+
   return (
     <div className = "app">
       <Header  />
-      <CardContainer  items = {items}/>
+      {/* <CardContainer  items = {items}/> */}
       
-
+      <Outlet context={context} />
     </div>
 
   )
