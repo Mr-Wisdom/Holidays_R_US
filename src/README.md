@@ -1,4 +1,3 @@
-
 # HOLIDAYS-R-US
 HOLIDAYS-R-US is the new and trending way to shop for all you holiday needs.
 Our websites gives user the ability to shop
@@ -13,3 +12,5 @@ add an item of there liking through our form which is also seen in our navigatio
 
 # StartUp
 All of the items data is stored in the db.json file. You'll want to access this data using a JSON server. Run npm run server to start the server.This will create a server storing all of our items  at http://localhost:3010/items.
+
+
